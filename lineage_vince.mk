@@ -29,7 +29,6 @@ TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := lineage_vince
-BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi

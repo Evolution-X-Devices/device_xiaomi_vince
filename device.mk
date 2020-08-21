@@ -385,6 +385,10 @@ PRODUCT_SOONG_NAMESPACES += \
     bootable/deprecated-ota
 endif
 
+# Tethering
+ PRODUCT_PACKAGES += \
+     TetheringConfigOverlay
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \

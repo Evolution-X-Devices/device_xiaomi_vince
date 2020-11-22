@@ -13,6 +13,7 @@ DEVICE_PATH := device/xiaomi/vince
 
 # Display
 TARGET_SCREEN_DENSITY := 440
+TARGET_DISABLE_POSTRENDER_CLEANUP := true
 
 # Camera
 TARGET_SUPPORT_HAL1 := false

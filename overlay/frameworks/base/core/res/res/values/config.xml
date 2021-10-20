@@ -374,4 +374,7 @@
         <item>org.lineageos.jelly</item>
         <item>org.lineageos.recorder</item>
     </string-array>
+
+    <!-- Speed up the animations -->
+    <fraction name="def_window_transition_scale">50%</fraction>
 </resources>

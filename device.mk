@@ -139,6 +139,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
     hwcomposer.qcom
 
+# Dolby
+TARGET_USES_DOLBY := true
+
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
 

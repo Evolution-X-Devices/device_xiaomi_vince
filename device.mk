@@ -162,7 +162,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_msm8953 \
+    android.hardware.biometrics.fingerprint-service.xiaomi \
     com.fingerprints.extension@1.0.vendor \
     vendor.goodix.hardware.fingerprint@1.0.vendor \
     liblzma.vendor

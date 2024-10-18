@@ -19,13 +19,6 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Signed
 -include vendor/lineage-priv/keys/keys.mk
 
-# Flags
-TARGET_BOOT_ANIMATION_RES := 720
-EVEREST_MAINTAINER := "AL"
-TARGET_SUPPORTS_BLUR := true
-WITH_GAPPS := false
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := lineage_vince
@@ -36,7 +29,5 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vince-user 8.1.0 OPM1.171019.019 V11.0.2.0.OEGMIXM release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
+    BuildDesc="vince-user 8.1.0 OPM1.171019.019 V11.0.2.0.OEGMIXM release-keys" \
+    BuildFingerprint=google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys

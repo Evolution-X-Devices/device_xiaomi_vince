@@ -923,4 +923,4 @@ vendor/etc/vintf/manifest/android.hardware.drm-service.widevine.xml
 vendor/lib/libwvaidl.so
 
 # Wi-Fi
-vendor/bin/wcnss_service
+vendor/bin/wcnss_service:vendor/bin/wcnss_service_xiaomi

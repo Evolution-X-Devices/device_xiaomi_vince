@@ -34,3 +34,6 @@
 
 # Ir
 /dev/peel_ir					u:object_r:peel_device:s0
+
+# Wifi
+/(vendor|system/vendor)/bin/wcnss_service_xiaomi u:object_r:wcnss_service_exec:s0

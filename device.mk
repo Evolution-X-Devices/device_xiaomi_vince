@@ -174,7 +174,8 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiDolby \
+    DSPVolumeSynchronizer \
+    XiaomiDolby
 
 # Gatekeeper
 PRODUCT_PACKAGES += \

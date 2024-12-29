@@ -10,7 +10,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     MusicFX \
     Music \
     AndroidAutoStub \
-    GoogleChrome \
+    Chrome \
     Maps \
     Drive \
     Photos \

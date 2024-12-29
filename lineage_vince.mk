@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Evolution-X Flags
-EVO_BUILD_TYPE := COMMUNITY
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_PICO_GAPPS := true
 

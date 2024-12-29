@@ -7,6 +7,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Android version screen, build maintainer -->
-    <string name="build_maintainer_summary" translatable="false">Ankit Savani</string>
-    <string name="build_maintainer_donate_url" translatable="false">https://graph.org/Donation-for-Evolution-X-POCO-F4-Redmi-K40smunch-09-14</string>
+    <string name="build_maintainer_summary" translatable="false">Onelots</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://paypal.me/0nelots</string>
 </resources>

@@ -30,7 +30,8 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 
 # Security patch level
 VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)

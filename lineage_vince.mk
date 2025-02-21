@@ -16,10 +16,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 AB_OTA_UPDATER := false
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Signed
--include vendor/lineage-priv/keys/keys.mk
+# Use pico gapps
+TARGET_USES_PICO_GAPPS := true
 
-# Flags
+# Remove EvolutionX's prebuilt
+TARGET_INCLUDE_ACCORD := false
+BUILD_BCR := false
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions

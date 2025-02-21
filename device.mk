@@ -87,6 +87,10 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     libtinycompress
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Audio configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
@@ -340,10 +344,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.post_boot.sh
-
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    removepackages
 
 # RIL
 PRODUCT_PACKAGES += \

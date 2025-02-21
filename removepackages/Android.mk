@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := removepackages
+LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
@@ -12,9 +12,13 @@ LOCAL_OVERRIDES_PACKAGES := \
 	AiWallpapers \
 	AndroidAutoStubPrebuilt \
 	Camera2 \
-        DevicePersonalizationPrebuiltPixel2020 \
-        DuckDuckGo \
-        Flash \
+	Calendar2 \
+	Calendar \
+  DevicePersonalizationPrebuiltPixel2020 \
+	DeviceAsWebcam \
+  DuckDuckGo \
+	Etar \
+  Flash \
 	GoogleTTS \
 	Gallery2 \
 	Jellyfish \
@@ -25,11 +29,12 @@ LOCAL_OVERRIDES_PACKAGES := \
 	PixelThemesStub2022_and_newer \
 	PixelWallpapers2023 \
 	PixelLiveWallpaperPrebuilt \
+	Recorder \
 	SnapCamera \
 	SafetyHubPrebuilt \
-        SimpleGallery \
+	Seedvault \
+  SimpleGallery \
 	TurboPrebuilt \
-	Velvet \
 	WellbeingPrebuilt \
 	YouTube
 LOCAL_UNINSTALLABLE_MODULE := true

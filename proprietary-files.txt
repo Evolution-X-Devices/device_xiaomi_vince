@@ -6,12 +6,10 @@ vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsprpc.so
 vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libfastcvopt.so
-vendor/lib/libfastrpc_utf_stub.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
-vendor/lib64/libfastrpc_utf_stub.so
 
 # ADSP modules
 vendor/lib/rfsa/adsp/dirac_resource.dar
@@ -634,7 +632,6 @@ vendor/lib/libvqzip.so
 
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
-vendor/bin/energy-awareness
 vendor/bin/msm_irqbalance
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
@@ -747,13 +744,10 @@ vendor/lib64/libqmiservices.so
 
 # Radio
 product/app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
-product/app/embms/embms.apk:system_ext/app/embms/embms.apk
-product/etc/permissions/embms.xml:system_ext/etc/permissions/embms.xml
 product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml:system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 product/etc/permissions/telephonyservice.xml:system_ext/etc/permissions/telephonyservice.xml
 product/framework/QtiTelephonyServicelibrary.jar:system_ext/framework/QtiTelephonyServicelibrary.jar
-product/framework/embmslibrary.jar:system_ext/framework/embmslibrary.jar
 product/framework/qcrilhook.jar:system_ext/framework/qcrilhook.jar
 product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrild
@@ -891,11 +885,9 @@ vendor/bin/sensors.qti
 vendor/etc/sensors/hals.conf
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
-vendor/lib/libsensor_user_cal.so
 vendor/lib/sensors.ssc.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
-vendor/lib64/libsensor_user_cal.so
 vendor/lib64/sensors.ssc.so
 
 # Thermal - from onc-user-9-PKQ1.181021.001-V10.2.5.0.PFLCNXM-release-keys

@@ -19,6 +19,9 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Signed
 -include vendor/lineage-priv/keys/keys.mk
 
+# Flags
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := lineage_vince

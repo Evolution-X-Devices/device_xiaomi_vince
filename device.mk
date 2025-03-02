@@ -398,12 +398,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-PRODUCT_PACKAGES += \
-    android.hardware.radio.c_shim@1.0 \
-    android.hardware.radio.c_shim@1.1 \
-    android.hardware.radio.c_shim@1.2 \
-    android.hardware.radio.config@1.1-service.wrapper
-
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.basic

@@ -175,6 +175,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     liblzma.vendor
 
+# FM
+PRODUCT_PACKAGES += \
+    FMRadio
+
+$(call soong_config_set_bool,libfmjni,no_fm_firmware,true)
+$(call soong_config_set,libfmjni,vendor,qcom)
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer \

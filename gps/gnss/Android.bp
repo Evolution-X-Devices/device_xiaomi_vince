@@ -19,6 +19,7 @@ cc_library_shared {
         "GnssAdapter.cpp",
         "Agps.cpp",
         "XtraSystemStatusObserver.cpp",
+        "NativeAgpsHandler.cpp",
     ],
 
     cflags: ["-fno-short-enums"] + GNSS_CFLAGS,

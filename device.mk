@@ -89,7 +89,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePackages
+    RemovePackagesVince
 
 # Audio configuration
 PRODUCT_COPY_FILES += \

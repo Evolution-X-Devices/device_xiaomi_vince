@@ -1,3 +1,6 @@
+# Crypto
+ro.crypto.state=encrypted
+
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 

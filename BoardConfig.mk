@@ -98,9 +98,6 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/vintf/manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/vintf/framework_manifest.xml
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/battery_charging_enabled
-
 # Media
 TARGET_USES_ION := true
 

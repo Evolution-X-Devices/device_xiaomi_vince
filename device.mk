@@ -121,6 +121,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstdc++_vendor
 
+# Charging path
+$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/battery/battery_charging_enabled)
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore

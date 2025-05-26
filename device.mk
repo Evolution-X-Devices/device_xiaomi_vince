@@ -223,6 +223,9 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# Init
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_vince)
+
 # IMS
 PRODUCT_PACKAGES += \
     libgui_shim \

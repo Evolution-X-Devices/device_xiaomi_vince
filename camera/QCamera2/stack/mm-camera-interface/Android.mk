@@ -55,7 +55,7 @@ LOCAL_CFLAGS += -Wall -Wextra -Wno-error -Wno-implicit-function-declaration
 
 LOCAL_SRC_FILES := $(MM_CAM_FILES)
 
-LOCAL_MODULE           := libmmcamera_interface
+LOCAL_MODULE           := libmmcamera_interface_vince
 LOCAL_SHARED_LIBRARIES := libdl libcutils liblog
 LOCAL_MODULE_TAGS := optional
 LOCAL_VENDOR_MODULE := true
